@@ -1,0 +1,46 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-image: url('../image/cover.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.logo img{
+    width: 13rem;
+    height: auto;
+}
+.object{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.object ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1rem;
+}
+.object ul li{
+    padding: 1rem;
+    margin-right: 0.3rem;
+    transition: all .9s;
+}
+.object ul li:hover{
+    border-radius: 0.2rem;
+    background-color: #ff7f3fc4;
+}
+.object ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+}
