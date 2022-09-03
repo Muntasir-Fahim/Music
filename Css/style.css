@@ -44,3 +44,59 @@ header{
     font-size: 1.3rem;
     color: white;
 }
+.body-title{
+    background-image: linear-gradient(135deg, rgb(42, 180, 58) 0%, rgb(42,180,58) 54%,rgb(95,245,51) 54%, rgb(95,245,51) 61%,rgb(156,254,99) 61%, rgb(156,254,99) 66%,rgb(97,250,85) 66%, rgb(97,250,85) 69%,rgb(34,243,79) 69%, rgb(34,243,79) 84%,rgb(42,180,58) 84%, rgb(42,180,58) 100%);
+    background-color: rgba(0, 0, 0, 0.267);
+    background-blend-mode: multiply;
+    width: 15rem;
+    height: 1rem;
+    text-align: center;
+    color: white;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 3.5rem;
+    border-radius: 0.5rem;
+    font-family: 'Carter One', cursive;
+    /* opacity: .5; */
+    transition: all .5s;
+}
+.body-title:hover{
+    background-color: transparent;
+}
+.search{
+    position: absolute;
+    top: 65%;
+    left: 35%;
+}
+.search form input[type="text"]{
+    width: 18rem;
+    padding: 1rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    border: 0.1rem solid deepskyblue;
+    font-style: italic;
+    border-right: none;
+    font-size: 1rem;
+}
+.search form input[type="text"]:focus{
+    outline: none;
+}
+.search form input[type="submit"]{
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    border: 0.1rem solid deepskyblue;
+    position: absolute;
+    border-left: none;
+    background-color: orange;
+    color: white;
+    font-size: 1rem;
+    transition: all .5s;
+}
+.search form input[type="submit"]:hover{
+    background-color: #e49400;
+}
