@@ -1,0 +1,31 @@
+.nav{
+    flex-direction: column;
+}
+.object ul{
+    flex-direction: row;
+    margin: 0 auto;
+}
+.object ul li{
+    margin: 0.5rem;
+    width: 100%;
+    text-align: center;
+}
+.logo img{
+    display: block;
+    margin: 0 auto;
+}
+.body-title{
+    position: static;
+    background-image: none;
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 2rem;
+    color: #DD2879;
+}
+.search{
+    position: static;
+}
+.search form input[type="text"]{
+    width: 10rem;
+    margin-left: 20%;
+}
