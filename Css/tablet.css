@@ -1,0 +1,37 @@
+.nav{
+    flex-direction: column;
+}
+.object ul{
+    width: 100vw;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.object ul li{
+    margin: 0.5rem;
+    width: 100%;
+    text-align: center;
+}
+.logo img{
+    display: block;
+    margin: 0 auto;
+}
+.body-title{
+    position: static;
+    background-image: none;
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 2rem;
+    color: #DD2879;
+}
+.search{
+    position: static;
+}
+.search form input[type="text"]{
+    width: 35%;
+    margin-left: 20%;
+}
+.search form input[type="submit"]{
+    width: 20%;
+}
