@@ -1,14 +1,17 @@
 .nav{
     flex-direction: column;
 }
+.object{
+    overflow: hidden;
+}
 .object ul{
-    flex-direction: row;
-    margin: 0 auto;
+    flex-direction: column;
+    padding: 0rem;
 }
 .object ul li{
-    margin: 0.5rem;
-    width: 100%;
+    margin: 0rem;
     text-align: center;
+    border-bottom: 0.1rem solid #fff;
 }
 .logo img{
     display: block;
@@ -26,6 +29,9 @@
     position: static;
 }
 .search form input[type="text"]{
-    width: 10rem;
+    width: 35%;
     margin-left: 20%;
+}
+.search form input[type="submit"]{
+    width: 20%;
 }
