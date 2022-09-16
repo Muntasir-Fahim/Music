@@ -6,7 +6,7 @@
 html{
     scroll-behavior: smooth;
 }
-header{
+body{
     background-image: url('../image/cover.jpg');
     height: 100vh;
     background-repeat: no-repeat;
