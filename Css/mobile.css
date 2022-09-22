@@ -1,3 +1,6 @@
+body{
+    height: unset;
+}
 .nav{
     flex-direction: column;
 }
@@ -23,10 +26,25 @@
     background-color: transparent;
     margin: 0 auto;
     margin-top: 2rem;
-    color: #DD2879;
+    font-family: 'Poppins', sans-serif;
+}
+.body-title p{
+    color: transparent;
+    -webkit-text-stroke: 0.5px #dd2879;
+    background-image: url('../image/back.png');
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back-anim 30s linear infinite;
+}
+@keyframes back-anim{
+    100%{
+        background-position: 2000px 0;
+    }
 }
 .search{
-    position: static;
+    position: initial;
+    margin-bottom: 1rem;
 }
 .search form input[type="text"]{
     width: 35%;
